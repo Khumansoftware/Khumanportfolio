@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khuman - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="style.js"></script>
+
+    <header>
+        <nav class="hero">
+            <div class="lift">
+                Khuman's Portfolio
+
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                
+            </ul>
+            <input type="button" value="CONTECT ME!" onclick="infom()" class="vs">
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="liftsection">
+                Hi,My Name Is <span class="purple">Khuman</span>
+                <div>and i am Passionate </div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="bg2.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="secondsection">
+            <h2>MY SKILLS</h2>
+            <div class="box">
+                <div class="vertical1">
+                    <div class="vertical-text"><span class="gray">HTML5</span>
+
+                        [I Learned from Xceed Pvt.Ltd.Delhi In 3rd Semester]</div>
+                </div>
+                <div class="vertical2">
+                    <div class="vertical-text1">
+                        <span class="yellow">CSS3</span>
+                        [I Learned from Xceed Pvt.Ltd.Delhi In 3rd Semester]
+                    </div>
+                </div>
+                <div class="vertical3">
+                    <div class="vertical-text2">
+                        <span class="green">JAVASCRIPT</span>
+                        [I Learned from Xceed Pvt.Ltd.Delhi In 3rd Semester]
+                    </div>
+                </div>
+                <div class="vertical4">
+                    <div class="vertical-text3">
+                        <span class="red">REACT.JS</span>
+                        [react.js i learned online currently]
+                    </div>
+                </div>
+                <div class="vertical5">
+                    <div class="vertical-text4">
+                        <span class="orange">PYTHON</span>
+                        [I Learned From MSME Technology Center Bhiwadi in 5th Semester]
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="container">
+                <h2> Copyright &#169; Khuman singh - portfolio | All Right Reserved</h2>
+            </div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-End Developer', 'Web Designer', 'React Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>

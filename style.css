@@ -1,0 +1,237 @@
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 2px;
+    margin: -8px;
+    height: 85px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 60px;
+    padding-left: 20px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+nav ul li a:hover {
+    color: rgb(189, 27, 27);
+    font-size: 1rem;
+}
+
+.lift {
+    font-size: 1.8rem;
+    color: rgb(7, 240, 248);
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.liftsection {
+    font-size: 1.65rem;
+
+}
+
+.rightsection img {
+    background-color: rgb(0, 0, 33);
+    margin-top: 50px;
+    height: 175px;
+    margin-left: 52px;
+
+
+}
+
+.purple {
+    color: cyan;
+}
+
+#element {
+    color: rgb(212, 80, 212);
+}
+
+
+.second {
+    display: flex;
+    font-size: 1.7rem;
+    align-items: center;
+    justify-content: right;
+    margin-right: 225px;
+    margin-top: 55px;
+
+
+}
+
+
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 120px;
+    height: 50vh;
+}
+
+.box {
+    background-color: white;
+    width: 150vh;
+    height: 2px;
+    margin: 34px 0px;
+    display: flex;
+}
+
+.vertical1 {
+
+    height: 85px;
+    background-color: white;
+    width: 1px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.vertical-text {
+    position: relative;
+    margin-top: 90px;
+    margin-left: -19px;
+    width: 155px;
+}
+
+.vertical2 {
+
+    height: 85px;
+    background-color: white;
+    width: 1px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.vertical-text1 {
+    position: relative;
+    margin-top: 90px;
+    margin-left: -19px;
+    width: 155px;
+
+}
+
+.vertical3 {
+    height: 85px;
+    background-color: white;
+    width: 1px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.vertical-text2 {
+    position: relative;
+    margin-top: 90px;
+    margin-left: -19px;
+    width: 155px;
+
+}
+
+.vertical4 {
+    display: flex;
+    height: 85px;
+    background-color: white;
+    width: 1px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.vertical-text3 {
+    position: relative;
+    margin-top: 90px;
+    margin-left: -19px;
+    width: 155px;
+
+}
+
+.vertical5 {
+    display: flex;
+    height: 85px;
+    background-color: white;
+    width: 1px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.vertical-text4 {
+    position: relative;
+    margin-top: 90px;
+    margin-left: -19px;
+    width: 200px;
+
+}
+
+.gray {
+    color: aqua;
+}
+
+.yellow {
+    color: aqua;
+}
+
+.green {
+    color: aqua;
+}
+
+.red {
+    color: aqua;
+}
+
+.orange {
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    color: rgb(52, 189, 194);
+
+}
+
+.flow {
+    height: 55px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 30px;
+
+}
